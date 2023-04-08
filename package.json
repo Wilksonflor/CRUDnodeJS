@@ -1,6 +1,25 @@
 {
   "dependencies": {
     "dotenv": "^16.0.3",
-    "mongodb": "^5.2.0"
-  }
+    "mongodb": "^5.2.0",
+    "nodemon": "^2.0.22"
+  },
+  "name": "crudnodejs",
+  "description": "Para aprender a fazer um CRUD com node e mongoDB",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wilksonflor/CRUDnodeJS.git"
+  },
+  "author": "Wilkson Flor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wilksonflor/CRUDnodeJS/issues"
+  },
+  "homepage": "https://github.com/Wilksonflor/CRUDnodeJS#readme"
 }
