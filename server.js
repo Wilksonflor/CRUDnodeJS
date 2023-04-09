@@ -14,12 +14,12 @@ const app = express()
 // Para 'chamar o express' colocando ele em uma variável; 
 
 
-// mongoose.connect('mongodb://localhost:27017/cursoMongoDB', {
+// mongoose.connect('wlkdb.web3gmq.mongodb.net:27017', {
 //     useUnifieldTopoloy: true,
 //     useNewUrlParser: true,
 //     useFindAndModify: false
 // }
-// // Iniciando a conexão com o banco de dados
+// Iniciando a conexão com o banco de dados
 
 
 
@@ -29,12 +29,13 @@ app.use(cookieParser())
 app.use(express.json())
 // Para pegar os dados e enviar os dados vai ser um JSON
 app.use(routes);
-// Não é uma biblioteca, então não precisa ser como função()
+// Não é uma biblioteca, então não precisa ser como função
 
 
 
 app.listen(3003, function(){
     console.log('Servidor Iniciado...')
 })
+
 // Primeiro parametro é a porta
 // Segundo parametro é a função que vai executar na porta
